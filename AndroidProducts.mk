@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_radxa0.mk
+    $(LOCAL_DIR)/lmodroid_radxa0.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_radxa0-eng \
-    lineage_radxa0-user \
-    lineage_radxa0-userdebug
+    lmodroid_radxa0-eng \
+    lmodroid_radxa0-user \
+    lmodroid_radxa0-userdebug

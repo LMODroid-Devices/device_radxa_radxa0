@@ -8,7 +8,7 @@
 $(call inherit-product, device/google/atv/products/atv_base.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_tv.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_tv.mk)
 
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -18,7 +18,7 @@ PRODUCT_BRAND := Radxa
 PRODUCT_DEVICE := radxa0
 PRODUCT_MANUFACTURER := radxa
 PRODUCT_MODEL := Radxa Zero
-PRODUCT_NAME := lineage_radxa0
+PRODUCT_NAME := lmodroid_radxa0
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=adt3 \
