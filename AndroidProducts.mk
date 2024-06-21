@@ -6,8 +6,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lmodroid_radxa0.mk
-
-COMMON_LUNCH_CHOICES := \
-    lmodroid_radxa0-eng \
-    lmodroid_radxa0-user \
-    lmodroid_radxa0-userdebug
