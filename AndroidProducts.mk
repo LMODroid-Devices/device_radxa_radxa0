@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_radxa0.mk
+    $(LOCAL_DIR)/lmodroid_radxa0.mk
